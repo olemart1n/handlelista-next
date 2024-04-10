@@ -1,6 +1,6 @@
 # handlelista
 
-## [next.handlelista.no](https://www.next.handlelista.no)
+## [next.handlelista.no](https://next.handlelista.no)
 
 ---
 
