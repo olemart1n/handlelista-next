@@ -8,6 +8,12 @@ export default function Home() {
             >
                 Logg inn
             </Link>
+            <Link
+                className="relative mx-auto mt-10 flex h-16 w-11/12 place-items-center justify-around rounded-sm border bg-green-100 text-center text-4xl shadow-md drop-shadow-sm"
+                href="/bruker"
+            >
+                Bruker
+            </Link>
         </main>
     );
 }
