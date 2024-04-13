@@ -17,7 +17,7 @@ export async function selectUserById(id: number) {
         return data.rows[0];
     } catch (error) {
         console.error("fetchUserById:", error);
-        throw new Error("Failed to fetch invoice.");
+        throw new Error("Failed to fetch user with id.");
     }
 }
 
@@ -29,6 +29,6 @@ export async function selectListsByUserId(id: number) {
         return data.rows;
     } catch (error) {
         console.error("fetchUserById:", error);
-        throw new Error("Failed to fetch invoice.");
+        throw new Error("Failed to fetch lists.");
     }
 }

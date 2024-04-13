@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import type { User } from "@/definititions";
 import { selectUserById } from "@/db";
-import Image from "next/image";
 
 export async function ProfileMeta() {
     const user = await selectUserById(1);

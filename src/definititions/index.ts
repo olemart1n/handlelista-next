@@ -22,8 +22,12 @@ export interface ListMember {
     avatar: string;
 }
 export interface User {
-    id: number;
+    id: string;
     email: string;
     name: string;
     avatar?: string;
+}
+
+export interface UserWithPasswordHash extends User {
+    password_hash: string;
 }

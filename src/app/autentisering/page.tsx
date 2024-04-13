@@ -23,7 +23,7 @@ export default function Page() {
             <h2 className="text-center text-lg ">Velg innloggings metode</h2>
             <a
                 className="border-gra mx-auto  flex  h-12 w-3/4  place-content-center rounded-sm border border-gray-200 shadow-sm"
-                href="/autentisering/registrer"
+                href="/autentisering/logg-inn"
             >
                 <span className="my-auto text-lg">Email & passord</span>
             </a>
